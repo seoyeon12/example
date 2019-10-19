@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@font-face{
+    font-family: 'ssflo';
+    src: url('tvN-즐거운이야기-Bold.ttf'); 
+}
+a{
+    background: transparent;
+    text-decoration: none;
+    color: #262626;
+}
+ul
+{
+    list-style: none;
+}
+body{
+    background-color: #FE8F8D;
+    font-family: 'ssflo';
+}
+.all{
+    width: 80%;
+    min-width: 1250px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+.header > img{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.section{
+    width: 100%;
+    height: 600px;
+    text-align: left;
+    background-image: url("pinkhouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#filter{
+    width: 100%;
+    height: 600px;
+    background-color: #26262660;
+}
+#title{
+    position: absolute;
+    margin: 30px 0px 0px 100px;
+    color: #ffffff;
+}
+#title > h1{
+    font-size: 150px;
+}
+#title > p{
+    font-size: 50px;
+}
+.donation{
+    position: relative;
+    width: 100%;
+    height:400px;
+    text-align: center;
+    margin: 100px 0px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.hap{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15%;
+    display: flex;
+}
+#hand{
+    width: 250px;
+}
+.info{
+    margin: 0px 0px 0px 100px;
+}
+.info > h1, .subtitle > h1{
+    font-size: 100px;
+}
+.info > p, .subtitle > p, .card>p{
+    font-size: 30px;
+}
+#donabtn{
+    padding: 20px 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 20%;
+    background-color: transparent;
+    border: 2px solid #FF5D5D;
+    font-family: 'ssflo';
+    box-shadow: 0px 2px 2px 0px  gray;
+}
+#donabtn:hover{
+    background-color: #FF5D5D;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.story{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.cards{
+    display: inline-flex;
+    margin: 80px 0px 0px 0px;
+    padding: 30px 0px;
+    border-top: 2px solid black;
+    font-family: 'ssflo';
+}
+.card > img{
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.card:nth-child(2){
+    margin-left: 150px;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    background-color: #26262691;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+}
