@@ -75,6 +75,9 @@ body{
     margin-left: 15%;
     display: flex;
 }
+#hand{
+    height:200px;
+}
 .info{
     margin: 0px 0px 0px 100px;
 }
